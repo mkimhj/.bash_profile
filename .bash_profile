@@ -1,11 +1,6 @@
 gshuf -n 1 .quotes2.txt
 echo
 
-# Apple stuff
-export P4PORT=ipodserv.apple.com:1665
-export GIT_REPOS="/Users/Maruchi/Projects/B415"
-
-
 # git bash autocomplete
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
